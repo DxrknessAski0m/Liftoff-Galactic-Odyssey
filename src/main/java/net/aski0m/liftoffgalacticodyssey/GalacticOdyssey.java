@@ -57,14 +57,8 @@ public class GalacticOdyssey {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.SCREAMERTOOTH);
-        }
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.SCREAMERSCALE);
-        }
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.PLACEHOLDER_BLOCK);
+        if (event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.SCREAMER_TOOTH_SPEAR);
         }
     }
 

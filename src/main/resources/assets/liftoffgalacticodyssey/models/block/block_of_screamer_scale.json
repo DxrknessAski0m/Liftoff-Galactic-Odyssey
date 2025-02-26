@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "liftoffgalacticodyssey:block/block_of_screamer_scale"
+  }
+}

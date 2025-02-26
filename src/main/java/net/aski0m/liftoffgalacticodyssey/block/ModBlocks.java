@@ -18,9 +18,9 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(GalacticOdyssey.MOD_ID);
 
-    public static final DeferredBlock<Block> PLACEHOLDER_BLOCK = registerBlock("placeholderblock",
+    public static final DeferredBlock<Block> BLOCK_OF_SCREAMER_SCALE = registerBlock("block_of_screamer_scale",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

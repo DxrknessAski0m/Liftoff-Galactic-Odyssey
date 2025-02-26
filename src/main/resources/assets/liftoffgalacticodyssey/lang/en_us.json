@@ -1,10 +1,10 @@
 {
   "itemGroup.liftoffgalacticodyssey": "Example Mod Tab",
 
-  "block.liftoffgalacticodyssey.placeholderblock": "Placeholder Block",
+  "block.liftoffgalacticodyssey.block_of_screamer_scale": "Block of Screamer scale",
 
   "item.liftoffgalacticodyssey.screamertooth": "Screamer tooth",
-  "item.liftoffgalacticodyssey.screamerscale": "Scale of a Screamer",
+  "item.liftoffgalacticodyssey.screamer_flesh": "Raw Screamer flesh",
   "item.liftoffgalacticodyssey.screamer_tooth_spear": "Screamer tooth spear",
   "creativetab.liftoffgalacticodyssey.galacticodyssey": "Galactic Odyssey",
   "creativetab.liftoffgalacticodyssey.galacticodyssey.mobs": "Galactic Odyssey Spawn Eggs"

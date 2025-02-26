@@ -17,22 +17,21 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, GalacticOdyssey.MOD_ID);
 
     public static final Supplier<CreativeModeTab> GALACTIC_ODYSSEY_TAB = CREATIVE_MODE_TAB.register("galactic_odyssey_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SCREAMERSCALE.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SCREAMER_FLESH.get()))
                     .title(Component.translatable("creativetab.liftoffgalacticodyssey.galacticodyssey"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.SCREAMERTOOTH);
-                        output.accept(ModItems.SCREAMERSCALE);
+                        output.accept(ModItems.SCREAMER_FLESH);
                         output.accept(ModItems.SCREAMER_TOOTH_SPEAR);
-                        output.accept(ModBlocks.PLACEHOLDER_BLOCK);
-                        output.accept(ModBlocks.PLACEHOLDER_BLOCK);
+                        output.accept(ModBlocks.BLOCK_OF_SCREAMER_SCALE);
                     }).build());
 
     public static final Supplier<CreativeModeTab> GALACTIC_ODYSSEY_MOB_TAB = CREATIVE_MODE_TAB.register("galactic_odyssey_mob_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SCREAMERSCALE.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SCREAMER_FLESH.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(GalacticOdyssey.MOD_ID, "galactic_odyssey_tab"))
                     .title(Component.translatable("creativetab.liftoffgalacticodyssey.galacticodyssey.mobs"))
                     .displayItems((parameters, output) -> {
-                        output.accept(ModBlocks.PLACEHOLDER_BLOCK);
+                        output.accept(ModBlocks.BLOCK_OF_SCREAMER_SCALE);
                     }).build());
 
     public static void register(IEventBus eventBus) {
