@@ -18,13 +18,13 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(GalacticOdyssey.MOD_ID);
 
-    public static final DeferredBlock<Block> PLACEHOLDER_BLOCK = registerBlock("Placeholderblock",
+    public static final DeferredBlock<Block> PLACEHOLDER_BLOCK = registerBlock("placeholderblock",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
-        registerBlock(name, toReturn);
+        registerBlockItem(name, toReturn);
         return toReturn;
     }
 

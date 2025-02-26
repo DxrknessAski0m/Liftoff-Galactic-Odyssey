@@ -1,5 +1,8 @@
 {
   "itemGroup.liftoffgalacticodyssey": "Example Mod Tab",
+
   "block.liftoffgalacticodyssey.placeholderblock": "Placeholder Block",
-  "item.liftoffgalacticodyssey.screamertooth": "Screamer tooth"
+
+  "item.liftoffgalacticodyssey.screamertooth": "Screamer tooth",
+  "item.liftoffgalacticodyssey.screamerscale": "Scale of a Screamer"
 }

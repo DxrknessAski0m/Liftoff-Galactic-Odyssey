@@ -11,6 +11,8 @@ public class ModItems {
 
     public static final DeferredItem<Item> SCREAMERTOOTH = ITEMS.register("screamertooth",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SCREAMERSCALE = ITEMS.register("screamerscale",
+            () -> new Item(new Item.Properties()));
 
 
 
