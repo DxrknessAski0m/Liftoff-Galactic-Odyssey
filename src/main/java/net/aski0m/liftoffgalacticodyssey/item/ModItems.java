@@ -13,6 +13,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> SCREAMERSCALE = ITEMS.register("screamerscale",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SCREAMER_TOOTH_SPEAR = ITEMS.register("screamer_tooth_spear",
+            () -> new Item(new Item.Properties()));
 
 
 

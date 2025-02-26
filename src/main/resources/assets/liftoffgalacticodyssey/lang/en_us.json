@@ -4,5 +4,8 @@
   "block.liftoffgalacticodyssey.placeholderblock": "Placeholder Block",
 
   "item.liftoffgalacticodyssey.screamertooth": "Screamer tooth",
-  "item.liftoffgalacticodyssey.screamerscale": "Scale of a Screamer"
+  "item.liftoffgalacticodyssey.screamerscale": "Scale of a Screamer",
+  "item.liftoffgalacticodyssey.screamer_tooth_spear": "Screamer tooth spear",
+  "creativetab.liftoffgalacticodyssey.galacticodyssey": "Galactic Odyssey",
+  "creativetab.liftoffgalacticodyssey.galacticodyssey.mobs": "Galactic Odyssey Spawn Eggs"
 }
