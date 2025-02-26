@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SCREAMERTOOTH);
                         output.accept(ModItems.SCREAMER_FLESH);
                         output.accept(ModItems.SCREAMER_TOOTH_SPEAR);
+                        output.accept(ModItems.SCREAMER_TOOTH_NECKLACE);
                         output.accept(ModBlocks.BLOCK_OF_SCREAMER_SCALE);
                     }).build());
 
