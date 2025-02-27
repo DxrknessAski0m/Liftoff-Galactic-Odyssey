@@ -3,7 +3,6 @@ package net.aski0m.liftoffgalacticodyssey;
 import net.aski0m.liftoffgalacticodyssey.block.ModBlocks;
 import net.aski0m.liftoffgalacticodyssey.item.ModCreativeModeTabs;
 import net.aski0m.liftoffgalacticodyssey.item.ModItems;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
